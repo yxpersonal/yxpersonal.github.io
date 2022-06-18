@@ -2,6 +2,7 @@
 :root{
   /** font size **/
   --primary-text: 1.8em;
+  --secondary-text: 1.2em;
   --normal-text: 1.0em;
   
   /** text color **/
@@ -19,6 +20,14 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+}
+#header .siteTitle{
+  height: 55px;
+  font-weight: 700;
+  font-size: var(--secondary-text);
+}
+#header .siteTitle{
+  
 }
 #header ul.navbar{
   display: flex;
